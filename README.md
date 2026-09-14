@@ -4,6 +4,8 @@
 
 Senior Data Engineer with **7+ years** of experience designing and optimizing high-throughput cloud data platforms, lakehouses, and real-time streaming architectures. Proven track record of managing large-scale ingestion pipelines, orchestrating complex workflows, and migrating legacy systems to modern cloud infrastructures.
 
+> **Portfolio note:** Featured repos are **redacted designs** of private production work. Full-scale sharing of underlying employer repos is **prohibited under compliance** — public repos demonstrate patterns, certified metrics, and synthetic samples only. Presentation style reference: [Rao-Anas-Riaz](https://github.com/Rao-Anas-Riaz).
+
 ---
 
 ### Tech stack
@@ -43,10 +45,11 @@ Senior Data Engineer with **7+ years** of experience designing and optimizing hi
 
 | Project | Description | Stack |
 |---|---|---|
-| [Checkout Telemetry](https://github.com/imran-alik/checkout-telemetry-case-study) | Real-time cart-abandonment pipeline with certification evidence | Python · GCP · Pub/Sub · BigQuery |
-| Telco CRM Lakehouse *(prod)* | Medallion lakehouse, DLT streaming, governed marts | Databricks · Unity Catalog · Airflow |
-| Enterprise Lakehouse Migration *(prod)* | On-prem → Snowflake/AWS, unified reporting | Snowflake · Glue · dbt · Spark |
+| [Python Auto Data Profiling](https://github.com/imran-alik/python-auto-data-profiling) | Interactive EDA + feature binning + SQL CASE export (Python evolution of [R-Auto-Data-Profiling](https://github.com/rao-anas-riaz/R-Auto-Data-Profiling)) | Python · Plotly · Pandas |
+| [Telco CRM Lakehouse](https://github.com/imran-alik/telco-crm-lakehouse) | Medallion CRM + contact-center marts, governed masking, on-prem Docker | Python · DuckDB · Docker · Databricks |
 | [Fleet Checkout Streaming](https://github.com/imran-alik/fleet-checkout-streaming) | Rental CDC → Kafka, live inventory & fleet KPIs | Python · Flink · Kafka · Redis |
+| [Checkout Telemetry](https://github.com/imran-alik/checkout-telemetry-case-study) | Real-time cart-abandonment pipeline with certification evidence | Python · GCP · Pub/Sub · BigQuery |
+| Enterprise Lakehouse Migration *(prod)* | On-prem → Snowflake/AWS, unified reporting | Snowflake · Glue · dbt · Spark |
 | Smart Home IoT *(prod)* | Fabric ETL, device telemetry, lineage | Fabric · ADLS · KQL · Eventstream |
 
 ---
