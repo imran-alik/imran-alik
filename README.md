@@ -4,7 +4,7 @@
 
 Senior Data Engineer with **7+ years** of experience designing and optimizing high-throughput cloud data platforms, lakehouses, and real-time streaming architectures. Proven track record of managing large-scale ingestion pipelines, orchestrating complex workflows, and migrating legacy systems to modern cloud infrastructures.
 
-> **Portfolio note:** Featured repos are **redacted designs** of private production work. Full-scale sharing of underlying employer repos is **prohibited under compliance** — public repos demonstrate patterns, certified metrics, and synthetic samples only. Presentation style reference: [Rao-Anas-Riaz](https://github.com/Rao-Anas-Riaz).
+> **Portfolio note:** Featured repos are **redacted designs** of private production work. Full-scale sharing of underlying employer repos is **prohibited under compliance** — public repos demonstrate patterns, certified metrics, and synthetic samples only.
 
 ---
 
@@ -36,7 +36,7 @@ Senior Data Engineer with **7+ years** of experience designing and optimizing hi
 - **Cloud Data Platforms:** AWS (S3, Glue, Lambda), Azure (Synapse, ADF, ADLS Gen2), GCP (Pub/Sub, BigQuery)
 - **Lakehouse & Medallion:** Databricks, Unity Catalog, Delta Live Tables (DLT), Microsoft Fabric, schema evolution
 - **Streaming & CDC:** Apache Flink, Kafka, Redis, KQL Eventstream, change data capture (CDC)
-- **Orchestration & CI/CD:** Apache Airflow (130+ DAGs), dbt, Docker, GitHub Actions CI/CD pipelines
+- **Orchestration & CI/CD:** Apache Airflow, dbt, Docker, GitHub Actions CI/CD pipelines
 - **Data Quality & Governance:** Idempotent replay, dead-letter queues (DLQ), RBAC, GDPR compliance, automated testing
 
 ---
@@ -45,7 +45,7 @@ Senior Data Engineer with **7+ years** of experience designing and optimizing hi
 
 | Project | Description | Stack |
 |---|---|---|
-| [Python Auto Data Profiling](https://github.com/imran-alik/python-auto-data-profiling) | Interactive EDA + feature binning + SQL CASE export (Python evolution of [R-Auto-Data-Profiling](https://github.com/rao-anas-riaz/R-Auto-Data-Profiling)) | Python · Plotly · Pandas |
+| [Python Auto Data Profiling](https://github.com/imran-alik/python-auto-data-profiling) | Interactive EDA + feature binning + SQL CASE export for feature engineering | Python · Plotly · Pandas |
 | [Telco CRM Lakehouse](https://github.com/imran-alik/telco-crm-lakehouse) | Medallion CRM + contact-center marts, governed masking, on-prem Docker | Python · DuckDB · Docker · Databricks |
 | [Fleet Checkout Streaming](https://github.com/imran-alik/fleet-checkout-streaming) | Rental CDC → Kafka, live inventory & fleet KPIs | Python · Flink · Kafka · Redis |
 | [Checkout Telemetry](https://github.com/imran-alik/checkout-telemetry-case-study) | Real-time cart-abandonment pipeline with certification evidence | Python · GCP · Pub/Sub · BigQuery |
