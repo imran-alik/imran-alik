@@ -49,7 +49,7 @@ Senior Data Engineer with **7+ years** of experience designing and optimizing hi
 | [Telco CRM Lakehouse](https://github.com/imran-alik/telco-crm-lakehouse) | Medallion CRM + contact-center marts, governed masking, on-prem Docker | Python · DuckDB · Docker · Databricks |
 | [Fleet Checkout Streaming](https://github.com/imran-alik/fleet-checkout-streaming) | Rental CDC → Kafka, live inventory & fleet KPIs | Python · Flink · Kafka · Redis |
 | [Checkout Telemetry](https://github.com/imran-alik/checkout-telemetry-case-study) | Real-time cart-abandonment pipeline with certification evidence | Python · GCP · Pub/Sub · BigQuery |
-| Enterprise Lakehouse Migration *(prod)* | On-prem → Snowflake/AWS, unified reporting | Snowflake · Glue · dbt · Spark |
+| [Enterprise Lakehouse Migration](https://github.com/imran-alik/enterprise-lakehouse-migration) | On-prem → S3 → Snowflake medallion, unified reporting marts | Spark · Snowflake · dbt · DuckDB |
 | Smart Home IoT *(prod)* | Fabric ETL, device telemetry, lineage | Fabric · ADLS · KQL · Eventstream |
 
 ---
